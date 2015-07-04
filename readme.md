@@ -2,6 +2,8 @@
 
 > Inserts an item at a specific position.
 
+## Install
+
 ```
 $ npm install --save array-insertat
 ```
