@@ -1,4 +1,4 @@
-# array-insertAt [![Build Status](https://travis-ci.org/emiljohansson/array-insertat.svg?branch=master)](https://travis-ci.org/emiljohansson/aarray-insertat)
+# array-insertAt [![Build Status](https://travis-ci.org/emiljohansson/array-insertat.svg?branch=master)](https://travis-ci.org/emiljohansson/array-insertat)
 
 > Inserts an item at a specific position.
 
