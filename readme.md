@@ -11,15 +11,17 @@ $ npm install --save array-insertat
 ## Usage
 
 ```js
-
 var insertAt = require('array-insertat');
 insertAt([1, 2], 3, 1);
 // => [1, 3, 2]
-
 ```
 
 ## API
+
 ### insertAt(array, item, index)
+
+Returns the modified array.
+
 #### array
 
 Type: `array`

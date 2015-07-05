@@ -19,6 +19,6 @@ function insertAt(array, item, index) {
     }
     array.splice(index, 0, item);
     return array;
-};
+}
 
 module.exports = insertAt;
