@@ -1,24 +1,23 @@
-"use strict";
-
 /**
- * Inserts an item into the array at `index`.
+ * Creates a new array and inserts an item into the array at `index` position.
  *
  * @param {Array} array The array to modify.
- * @param {*} item The item to add.
  * @param {number} index Position where to modify the array.
- * @return {Array} array The modified array.
+ * @param {*} item The item to add.
+ * @return {Array} array A new, modified array based of the original array.
  * @example
  *
- * insertAt([1, 2], 3, 1)
+ * insertAt([1, 2], 1, 3)
  *
  * // => [1, 3, 2]
  */
-function insertAt(array, item, index) {
-    if (Array.isArray(array) === false) {
-        return;
-    }
-    array.splice(index, 0, item);
-    return array;
+const insertAt = (array, index, item) => {
+  if (!Array.isArray(array)) {
+    return
+  }
+  const result = array.slice(0)
+  result.splice(index, 0, item)
+  return result
 }
 
-module.exports = insertAt;
+module.exports = insertAt

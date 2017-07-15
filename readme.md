@@ -2,6 +2,8 @@
 
 > Inserts an item at a specific position.
 
+Returns a new array, where an item is inserted at a specific position. The original array will not be modified.
+
 ## Install
 
 ```
@@ -11,14 +13,14 @@ $ npm install --save array-insertat
 ## Usage
 
 ```js
-var insertAt = require('array-insertat');
-insertAt([1, 2], 3, 1);
+const insertAt = require('array-insertat')
+insertAt([1, 2], 1, 3)
 // => [1, 3, 2]
 ```
 
 ## API
 
-### insertAt(array, item, index)
+### insertAt(array, index, item)
 
 Returns the modified array.
 
@@ -28,17 +30,17 @@ Type: `array`
 
 The array to modify.
 
-#### item
-
-Type: `item`
-
-The item to add.
-
 #### index
 
 Type: `index`
 
 Position where to modify the array.
+
+#### item
+
+Type: `item`
+
+The item to add.
 
 ## License
 
