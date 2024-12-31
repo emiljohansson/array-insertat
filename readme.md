@@ -44,4 +44,4 @@ The item to add.
 
 ## License
 
-MIT © [Emil Johansson](http://emiljohansson.se)
+MIT © Emil Johansson
